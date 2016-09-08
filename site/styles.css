@@ -4,10 +4,10 @@
 h1 {
     color: black;
     text-shadow: 0px 1px 1px black;
-    margin-left: 400px;
     margin-top: 50px;
     font-size: 2em;
     position: relative;
+    text-align: center;
 }
 div.big1 {
     position: relative;
@@ -92,8 +92,6 @@ div.small3 {
 
 @media (min-width: 991px)
 {
-    h1{ margin-left: 450px; 
-      height: 150px;}
 
 div.big1 {
     width: 31%;
@@ -114,11 +112,6 @@ div.big3 {
 }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    h1 {
-    margin-left: 320px;
-    margin-top: 50px;
-    font-size: 2em;
-}
 div.big1 {
     width: 44%;
     margin-top: 35px;
@@ -137,11 +130,6 @@ div.big3 {
 }
 }
 @media (max-width: 767px) {
-h1 {
-    margin-left: 120px;
-    margin-top: 10px;
-    font-size: 2em;
-   }
 div.big1 {  
     width: 90%; 
     height: 175px;
